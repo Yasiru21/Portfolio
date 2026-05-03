@@ -3,16 +3,6 @@ const hamMenu = document.getElementById('hamMenu');
  const contactForm =document.getElementById('contactForm') ;
 const skills = document.querySelectorAll('.skill');
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3HX1CH3CZ0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3HX1CH3CZ0');
-</script>
-
 hamMenu.addEventListener('click',() => {
   navigationLinks.classList.toggle ('active') ;
   
